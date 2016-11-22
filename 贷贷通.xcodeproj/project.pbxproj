@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		883AAB241C868211001F9C0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883AAB231C868211001F9C0C /* AppDelegate.swift */; };
+		883AAB291C868211001F9C0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883AAB271C868211001F9C0C /* Main.storyboard */; };
+		883AAB2C1C868211001F9C0C /* 贷贷通.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 883AAB2A1C868211001F9C0C /* 贷贷通.xcdatamodeld */; };
+		883AAB2E1C868211001F9C0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883AAB2D1C868211001F9C0C /* Assets.xcassets */; };
+		883AAB311C868211001F9C0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883AAB2F1C868211001F9C0C /* LaunchScreen.storyboard */; };
+		883AAB5B1C8688C1001F9C0C /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883AAB5A1C8688C1001F9C0C /* NavViewController.swift */; };
+		883AAB5D1C868E2F001F9C0C /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883AAB5C1C868E2F001F9C0C /* TabViewController.swift */; };
+		88F235F21C894FB2007180A4 /* uiview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F235F11C894FB2007180A4 /* uiview.swift */; };
+		88F3BC101C8D4CD6002944B1 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F3BC0F1C8D4CD6002944B1 /* IndexViewController.swift */; };
+		88F3BC121C8D4D41002944B1 /* ListTTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F3BC111C8D4D41002944B1 /* ListTTableViewController.swift */; };
+		88F97F4A1C8E964300741FC0 /* ddtUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F97F491C8E964300741FC0 /* ddtUrl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		883AAB381C868211001F9C0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 883AAB181C868211001F9C0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 883AAB1F1C868211001F9C0C;
+			remoteInfo = "贷贷通";
+		};
+		883AAB431C868211001F9C0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 883AAB181C868211001F9C0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 883AAB1F1C868211001F9C0C;
+			remoteInfo = "贷贷通";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		883AAB201C868211001F9C0C /* 贷贷通.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "贷贷通.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		883AAB231C868211001F9C0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		883AAB281C868211001F9C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		883AAB2B1C868211001F9C0C /* 贷贷通.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "贷贷通.xcdatamodel"; sourceTree = "<group>"; };
+		883AAB2D1C868211001F9C0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		883AAB301C868211001F9C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		883AAB321C868211001F9C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		883AAB371C868211001F9C0C /* 贷贷通Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "贷贷通Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		883AAB3D1C868211001F9C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		883AAB421C868211001F9C0C /* 贷贷通UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "贷贷通UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		883AAB5A1C8688C1001F9C0C /* NavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
+		883AAB5C1C868E2F001F9C0C /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		88F235F11C894FB2007180A4 /* uiview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uiview.swift; sourceTree = "<group>"; };
+		88F3BC0F1C8D4CD6002944B1 /* IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		88F3BC111C8D4D41002944B1 /* ListTTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTTableViewController.swift; sourceTree = "<group>"; };
+		88F97F491C8E964300741FC0 /* ddtUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ddtUrl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		883AAB1D1C868211001F9C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883AAB341C868211001F9C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883AAB3F1C868211001F9C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		883AAB171C868211001F9C0C = {
+			isa = PBXGroup;
+			children = (
+				883AAB221C868211001F9C0C /* 贷贷通 */,
+				883AAB3A1C868211001F9C0C /* 贷贷通Tests */,
+				883AAB451C868211001F9C0C /* 贷贷通UITests */,
+				883AAB211C868211001F9C0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		883AAB211C868211001F9C0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				883AAB201C868211001F9C0C /* 贷贷通.app */,
+				883AAB371C868211001F9C0C /* 贷贷通Tests.xctest */,
+				883AAB421C868211001F9C0C /* 贷贷通UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		883AAB221C868211001F9C0C /* 贷贷通 */ = {
+			isa = PBXGroup;
+			children = (
+				883AAB551C868344001F9C0C /* View */,
+				883AAB231C868211001F9C0C /* AppDelegate.swift */,
+				883AAB5A1C8688C1001F9C0C /* NavViewController.swift */,
+				883AAB5C1C868E2F001F9C0C /* TabViewController.swift */,
+				883AAB271C868211001F9C0C /* Main.storyboard */,
+				883AAB2D1C868211001F9C0C /* Assets.xcassets */,
+				883AAB2F1C868211001F9C0C /* LaunchScreen.storyboard */,
+				883AAB321C868211001F9C0C /* Info.plist */,
+				883AAB2A1C868211001F9C0C /* 贷贷通.xcdatamodeld */,
+				88F235F11C894FB2007180A4 /* uiview.swift */,
+				88F97F491C8E964300741FC0 /* ddtUrl.swift */,
+			);
+			path = "贷贷通";
+			sourceTree = "<group>";
+		};
+		883AAB3A1C868211001F9C0C /* 贷贷通Tests */ = {
+			isa = PBXGroup;
+			children = (
+				883AAB3D1C868211001F9C0C /* Info.plist */,
+			);
+			path = "贷贷通Tests";
+			sourceTree = "<group>";
+		};
+		883AAB451C868211001F9C0C /* 贷贷通UITests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "贷贷通UITests";
+			sourceTree = "<group>";
+		};
+		883AAB551C868344001F9C0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88F3BC0F1C8D4CD6002944B1 /* IndexViewController.swift */,
+				88F3BC111C8D4D41002944B1 /* ListTTableViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		883AAB1F1C868211001F9C0C /* 贷贷通 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883AAB4B1C868211001F9C0C /* Build configuration list for PBXNativeTarget "贷贷通" */;
+			buildPhases = (
+				883AAB1C1C868211001F9C0C /* Sources */,
+				883AAB1D1C868211001F9C0C /* Frameworks */,
+				883AAB1E1C868211001F9C0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "贷贷通";
+			productName = "贷贷通";
+			productReference = 883AAB201C868211001F9C0C /* 贷贷通.app */;
+			productType = "com.apple.product-type.application";
+		};
+		883AAB361C868211001F9C0C /* 贷贷通Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883AAB4E1C868211001F9C0C /* Build configuration list for PBXNativeTarget "贷贷通Tests" */;
+			buildPhases = (
+				883AAB331C868211001F9C0C /* Sources */,
+				883AAB341C868211001F9C0C /* Frameworks */,
+				883AAB351C868211001F9C0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				883AAB391C868211001F9C0C /* PBXTargetDependency */,
+			);
+			name = "贷贷通Tests";
+			productName = "贷贷通Tests";
+			productReference = 883AAB371C868211001F9C0C /* 贷贷通Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		883AAB411C868211001F9C0C /* 贷贷通UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883AAB511C868211001F9C0C /* Build configuration list for PBXNativeTarget "贷贷通UITests" */;
+			buildPhases = (
+				883AAB3E1C868211001F9C0C /* Sources */,
+				883AAB3F1C868211001F9C0C /* Frameworks */,
+				883AAB401C868211001F9C0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				883AAB441C868211001F9C0C /* PBXTargetDependency */,
+			);
+			name = "贷贷通UITests";
+			productName = "贷贷通UITests";
+			productReference = 883AAB421C868211001F9C0C /* 贷贷通UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		883AAB181C868211001F9C0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wujunbao;
+				TargetAttributes = {
+					883AAB1F1C868211001F9C0C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					883AAB361C868211001F9C0C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 883AAB1F1C868211001F9C0C;
+					};
+					883AAB411C868211001F9C0C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 883AAB1F1C868211001F9C0C;
+					};
+				};
+			};
+			buildConfigurationList = 883AAB1B1C868211001F9C0C /* Build configuration list for PBXProject "贷贷通" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 883AAB171C868211001F9C0C;
+			productRefGroup = 883AAB211C868211001F9C0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				883AAB1F1C868211001F9C0C /* 贷贷通 */,
+				883AAB361C868211001F9C0C /* 贷贷通Tests */,
+				883AAB411C868211001F9C0C /* 贷贷通UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		883AAB1E1C868211001F9C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883AAB311C868211001F9C0C /* LaunchScreen.storyboard in Resources */,
+				883AAB2E1C868211001F9C0C /* Assets.xcassets in Resources */,
+				883AAB291C868211001F9C0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883AAB351C868211001F9C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883AAB401C868211001F9C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		883AAB1C1C868211001F9C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F3BC121C8D4D41002944B1 /* ListTTableViewController.swift in Sources */,
+				88F235F21C894FB2007180A4 /* uiview.swift in Sources */,
+				883AAB5D1C868E2F001F9C0C /* TabViewController.swift in Sources */,
+				883AAB5B1C8688C1001F9C0C /* NavViewController.swift in Sources */,
+				883AAB241C868211001F9C0C /* AppDelegate.swift in Sources */,
+				88F3BC101C8D4CD6002944B1 /* IndexViewController.swift in Sources */,
+				88F97F4A1C8E964300741FC0 /* ddtUrl.swift in Sources */,
+				883AAB2C1C868211001F9C0C /* 贷贷通.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883AAB331C868211001F9C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883AAB3E1C868211001F9C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		883AAB391C868211001F9C0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 883AAB1F1C868211001F9C0C /* 贷贷通 */;
+			targetProxy = 883AAB381C868211001F9C0C /* PBXContainerItemProxy */;
+		};
+		883AAB441C868211001F9C0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 883AAB1F1C868211001F9C0C /* 贷贷通 */;
+			targetProxy = 883AAB431C868211001F9C0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		883AAB271C868211001F9C0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				883AAB281C868211001F9C0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		883AAB2F1C868211001F9C0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				883AAB301C868211001F9C0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		883AAB491C868211001F9C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		883AAB4A1C868211001F9C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		883AAB4C1C868211001F9C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "贷贷通/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.ddt361.com.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		883AAB4D1C868211001F9C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "贷贷通/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.ddt361.com.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		883AAB4F1C868211001F9C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "贷贷通Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.ddt361.com.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/贷贷通.app/贷贷通";
+			};
+			name = Debug;
+		};
+		883AAB501C868211001F9C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "贷贷通Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.ddt361.com.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/贷贷通.app/贷贷通";
+			};
+			name = Release;
+		};
+		883AAB521C868211001F9C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "贷贷通UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.ddt361.com.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "贷贷通";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		883AAB531C868211001F9C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "贷贷通UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.ddt361.com.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "贷贷通";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		883AAB1B1C868211001F9C0C /* Build configuration list for PBXProject "贷贷通" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883AAB491C868211001F9C0C /* Debug */,
+				883AAB4A1C868211001F9C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883AAB4B1C868211001F9C0C /* Build configuration list for PBXNativeTarget "贷贷通" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883AAB4C1C868211001F9C0C /* Debug */,
+				883AAB4D1C868211001F9C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883AAB4E1C868211001F9C0C /* Build configuration list for PBXNativeTarget "贷贷通Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883AAB4F1C868211001F9C0C /* Debug */,
+				883AAB501C868211001F9C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883AAB511C868211001F9C0C /* Build configuration list for PBXNativeTarget "贷贷通UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883AAB521C868211001F9C0C /* Debug */,
+				883AAB531C868211001F9C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		883AAB2A1C868211001F9C0C /* 贷贷通.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				883AAB2B1C868211001F9C0C /* 贷贷通.xcdatamodel */,
+			);
+			currentVersion = 883AAB2B1C868211001F9C0C /* 贷贷通.xcdatamodel */;
+			path = "贷贷通.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 883AAB181C868211001F9C0C /* Project object */;
+}
